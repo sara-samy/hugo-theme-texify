@@ -63,6 +63,10 @@
   {{ template "_internal/twitter_cards.html" . }}
 
   {{ block "head" . }}{{ end }}
+
+  <!-- plausible -->
+  {{ partial "plausible_head.html" . }}
+
 </head>
 
 <body>
